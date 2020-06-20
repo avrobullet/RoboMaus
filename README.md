@@ -28,5 +28,5 @@ This project was also my first experience with the C programming language. Comin
 ### Future improvements
 Originally, we had planned to experiment how different data structures affected performance however due to time constraints we were limited to only using a stack though various other data structures were on our list.
 
-## Special;Thanks
+## Special Thanks
 A huge part of this project is built on top of MiniOS, an operating system built for the SAM4S micro controller by [Rafael Roman Otero](http://embedntks.com/author/romanot/).
