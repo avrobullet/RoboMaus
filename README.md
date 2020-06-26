@@ -1,5 +1,7 @@
 # RoboMaus
 
+<img src="https://mdrakos.github.io/images/roboMaus-teaser.png" width="728" height="440">
+
 The roboMaus project was used to explore hardware programming, data structures, and concurrency.
 
 The idea was to see if independent treads of a tank could be controlled via software rather than a gear system. In order to implement and test this idea our team had to develop hardware drivers for each physical component, software to populate data structures with path information and facilitate communication amongst the hardware components.
@@ -9,6 +11,62 @@ The idea was to see if independent treads of a tank could be controlled via soft
 The main hardware used for this project:
 
 *SAM4SD32 Microcontroller*
+
+<img src="https://mdrakos.github.io/images/sam4s.png" width="300" height="250">
+
+* This is the brain of the project.
+* Code is flashed and stored on the ROM
+* Extension pins allow for connection to all other hardware components
+
+*ATMEL OLED1 Xplained Pro*
+
+* Used to initialize the program via a button push
+* Display statistics (number of rotations) on OLED display
+
+<img src="https://mdrakos.github.io/images/oled.png" width="350" height="250">
+
+* Used to initialize the program via a button push
+* Display statistics (number of rotations) on OLED display
+
+*L298 H-Bridge Dual Bidirectional Motor Driver*
+
+<img src="https://mdrakos.github.io/images/hbridge.png" width="300" height="250">
+
+* Used to measure distance by counting wheel rotations
+
+*Hall effect sensors*
+
+<img src="https://mdrakos.github.io/images/hall-sensor.png" width="300" height="250">
+
+*Brushless Motors with 1:10 Gear Reduction*
+
+<img src="https://mdrakos.github.io/images/motor.png" width="300" height="250">
+
+*Included Kit Treads*
+
+<img src="https://mdrakos.github.io/images/treads.png" width="300" height="250">
+
+*..and a 14V RC battery pack!*
+
+## 3D Printing and Modelling
+The chassis was an opportunity to explore 3D printing using a [Tinkerine DittoPro 3D Printer](https://store.tinkerine.com/products/ditto-pro). Two prototypes were developed before finalizing the chassis. All three are shown below:
+
+*Prototype Chassis 1*
+
+<img src="https://mdrakos.github.io/images/chassisv1.png" width="500" height="350">
+
+* The first prototype was built to confirm the dimensions of the chassis were printed accurately
+
+*Prototype Chassis 2*
+
+<img src="https://mdrakos.github.io/images/chassisv2.png" width="500" height="350">
+
+* The second prototype was built to determine the fitment of the motors, tread and tread axels, and battery pack
+* This chassis also indicated a need to create a separate layer to host the computing hardware
+
+*Final Chassis*
+
+<img src="https://mdrakos.github.io/images/chassisv3.png" width="500" height="350">
 
 ## Data Structures
 Each tread is controlled independently. Instructions for are stored in two separate stacks for each tread as a ‘tick’ value. These values represent the number of ticks we want to receive from a hall effect sensor.
