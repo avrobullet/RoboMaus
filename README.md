@@ -2,13 +2,7 @@
 
 <img src="https://mdrakos.github.io/images/roboMaus-teaser.png" width="728" height="440">
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=7UpjE0antww"></iframe>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<a href="https://www.youtube.com/watch?v=7UpjE0antww" target="_blank">
 
 The roboMaus project was used to explore hardware programming, data structures, and concurrency.
 
