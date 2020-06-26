@@ -10,7 +10,7 @@ The idea was to see if independent treads of a tank could be controlled via soft
 
 The main hardware used for this project:
 
-*SAM4SD32 Microcontroller*
+**SAM4SD32 Microcontroller**
 
 <img src="https://mdrakos.github.io/images/sam4s.png" width="300" height="250">
 
@@ -18,35 +18,35 @@ The main hardware used for this project:
 * Code is flashed and stored on the ROM
 * Extension pins allow for connection to all other hardware components
 
-*ATMEL OLED1 Xplained Pro*
-
-* Used to initialize the program via a button push
-* Display statistics (number of rotations) on OLED display
+**ATMEL OLED1 Xplained Pro**
 
 <img src="https://mdrakos.github.io/images/oled.png" width="350" height="250">
 
 * Used to initialize the program via a button push
 * Display statistics (number of rotations) on OLED display
 
-*L298 H-Bridge Dual Bidirectional Motor Driver*
+**L298 H-Bridge Dual Bidirectional Motor Driver**
 
 <img src="https://mdrakos.github.io/images/hbridge.png" width="300" height="250">
 
-* Used to measure distance by counting wheel rotations
+* Used to initialize the program via a button push
+* Display statistics (number of rotations) on OLED display
 
-*Hall effect sensors*
+**Hall effect sensors**
 
 <img src="https://mdrakos.github.io/images/hall-sensor.png" width="300" height="250">
 
-*Brushless Motors with 1:10 Gear Reduction*
+* Used to measure distance by counting wheel rotations
+
+**Brushless Motors with 1:10 Gear Reduction**
 
 <img src="https://mdrakos.github.io/images/motor.png" width="300" height="250">
 
-*Included Kit Treads*
+**Included Kit Treads**
 
 <img src="https://mdrakos.github.io/images/treads.png" width="300" height="250">
 
-*..and a 14V RC battery pack!*
+**..and a 14V RC battery pack!**
 
 ## 3D Printing and Modelling
 The chassis was an opportunity to explore 3D printing using a [Tinkerine DittoPro 3D Printer](https://store.tinkerine.com/products/ditto-pro). Two prototypes were developed before finalizing the chassis. All three are shown below:
