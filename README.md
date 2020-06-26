@@ -2,6 +2,14 @@
 
 <img src="https://mdrakos.github.io/images/roboMaus-teaser.png" width="728" height="440">
 
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=7UpjE0antww"></iframe>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/MUQfKFzIOeU" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 The roboMaus project was used to explore hardware programming, data structures, and concurrency.
 
 The idea was to see if independent treads of a tank could be controlled via software rather than a gear system. In order to implement and test this idea our team had to develop hardware drivers for each physical component, software to populate data structures with path information and facilitate communication amongst the hardware components.
