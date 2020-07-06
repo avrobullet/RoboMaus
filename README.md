@@ -106,4 +106,4 @@ Originally, we had planned to experiment how different data structures affected 
 A huge part of this project is built on top of MiniOS, an operating system built for the SAM4S micro controller by [Rafael Roman Otero](http://embedntks.com/author/romanot/).
 
 ## License
-This project is licensed under the GNU General Public License V.3 License - see the LICENSE file for details
+This project is licensed under the [MIT License](https://github.com/avrobullet/RoboMaus/blob/master/LICENSE) - see the LICENSE file for details
