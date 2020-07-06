@@ -4,6 +4,20 @@
 
 <a href="https://www.youtube.com/watch?v=7UpjE0antww" target="_blank">Click this link to view the RoboMaus in action</a>
 
+## Contents
+
+- [Introduction](#introduction)
+- [Hardware](#hardware)
+- [3D Printing and Modelling](#3d-printing-and-modelling)
+- [Data Structures](#data-structures)
+- [Concurrency](#concurrency)
+- [Challenges](#challenges)
+- [Future Improvements](#future-improvements)
+- [Special Thanks](#special-thanks)
+- [License](#license)
+
+## Introduction
+
 The roboMaus project was used to explore hardware programming, data structures, and concurrency.
 
 The idea was to see if independent treads of a tank could be controlled via software rather than a gear system. In order to implement and test this idea our team had to develop hardware drivers for each physical component, software to populate data structures with path information and facilitate communication amongst the hardware components.
@@ -90,3 +104,6 @@ Originally, we had planned to experiment how different data structures affected 
 
 ## Special Thanks
 A huge part of this project is built on top of MiniOS, an operating system built for the SAM4S micro controller by [Rafael Roman Otero](http://embedntks.com/author/romanot/).
+
+## License
+This project is licensed under the GNU General Public License V.3 License - see the LICENSE file for details
